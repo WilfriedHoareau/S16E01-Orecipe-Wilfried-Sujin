@@ -1,15 +1,22 @@
 import "./Cards.css";
 import Card from "../Card/Card";
+import { IRecipe } from "../../@types/recipe";
 
-function Cards() {
+interface ICards {
+	recipes: IRecipe[];
+}
+
+function Cards({ recipes }: ICards) {
 	return (
 		<main>
 			<section id="recipe">
 				<h1>Les recettes O'Recipes</h1>
-				<h2>Voici nos 6 recettes</h2>
+				<h2>Voici nos {recipes.length} recettes</h2>
 
 				<div className="cards">
-					<Card />
+					{recipes.map((recipe) => (
+						<Card key={recipe.id} recipe={recipe} />
+					))}
 				</div>
 			</section>
 		</main>

@@ -2,12 +2,6 @@
 	background-color: #042032;
 	color: white;
 	width: 30%;
-}
-
-.nav-ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
 	display: flex;
 	flex-direction: column;
 	padding-block: 20px;
