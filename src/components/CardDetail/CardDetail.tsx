@@ -26,7 +26,6 @@ function CardDetail({ recipes }: ICard) {
 					</div>
 				</div>
 			</div>
-			{/* ingredient */}
 			{recipe?.ingredients.map((recipe) => (
 				<div key={recipe.id} className="ingredients">
 					<div className="quantity">
@@ -35,7 +34,6 @@ function CardDetail({ recipes }: ICard) {
 					<p>{recipe.name}</p>
 				</div>
 			))}
-			{/* recette */}
 			<ul className="instruction-ul">
 				{recipe?.instructions.map((instr) => (
 					<li key={instr} className="instruction-li">

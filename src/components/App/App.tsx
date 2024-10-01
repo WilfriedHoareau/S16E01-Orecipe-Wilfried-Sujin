@@ -35,9 +35,6 @@ function App() {
 			<Nav recipes={recipes} />
 			<div className="right">
 				<Header />
-				{/* <CardDetail /> */}
-				{/* <Cards recipes={recipes} /> */}
-
 				<Routes>
 					<Route path="/" element={<Cards recipes={recipes} />} />
 					<Route
