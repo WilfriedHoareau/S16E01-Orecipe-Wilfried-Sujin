@@ -1,0 +1,22 @@
+h1 {
+	font-size: 35px;
+	color: #209cee;
+	border-bottom: 1px solid #89d0ff;
+}
+
+h2,
+h1 {
+	padding: 15px;
+}
+
+main {
+	padding: 10px;
+	gap: 20px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: space-between;
+}

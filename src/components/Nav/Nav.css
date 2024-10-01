@@ -1,0 +1,38 @@
+.nav {
+	background-color: #042032;
+	color: white;
+	width: 30%;
+}
+
+.nav-ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	padding-block: 20px;
+	padding-left: 20px;
+}
+
+.nav-li {
+	padding-block: 10px;
+}
+
+.nav-li.active {
+	color: var(--primary-color);
+	position: relative;
+}
+
+.nav-li.active::after {
+	color: var(--primary-color);
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-right: 3px solid var(--primary-color);
+	height: 100%;
+}
+
+.li-text {
+	width: 70%;
+}

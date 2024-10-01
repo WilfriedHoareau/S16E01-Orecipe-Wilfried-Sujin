@@ -1,16 +1,16 @@
-body {
+/* body {
 	font-family: "Poppins", sans-serif;
 }
 
 :root {
 	--primary-color: #209cee;
-}
+} */
 
-.container {
+/* .container {
 	display: flex;
-}
+} */
 
-.nav {
+/* .nav {
 	background-color: #042032;
 	color: white;
 	width: 30%;
@@ -43,18 +43,18 @@ body {
 	top: 0;
 	border-right: 3px solid var(--primary-color);
 	height: 100%;
-}
+} */
 
-.li-text {
+/* .li-text {
 	width: 70%;
-}
+} */
 
 .right {
 	width: 70%;
 	padding-inline: 20px;
 }
 
-header {
+/* header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -83,7 +83,7 @@ form .btn {
 	padding-inline: 10px;
 	border-radius: 5px;
 	font-weight: 700;
-}
+} */
 
 h1 {
 	font-size: 35px;
