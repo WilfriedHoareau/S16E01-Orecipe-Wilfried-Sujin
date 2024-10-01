@@ -1,0 +1,149 @@
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+:root {
+	--primary-color: #209cee;
+}
+
+.container {
+	display: flex;
+}
+
+.nav {
+	background-color: #042032;
+	color: white;
+	width: 30%;
+}
+
+.nav-ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	padding-block: 20px;
+	padding-left: 20px;
+}
+
+.nav-li {
+	padding-block: 10px;
+}
+
+.nav-li.active {
+	color: var(--primary-color);
+	position: relative;
+}
+
+.nav-li.active::after {
+	color: var(--primary-color);
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-right: 3px solid var(--primary-color);
+	height: 100%;
+}
+
+.li-text {
+	width: 70%;
+}
+
+.right {
+	width: 70%;
+	padding-inline: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	box-shadow: 0 4px 2px -2px rgb(194, 194, 194);
+}
+
+.logo-img {
+	width: 50px;
+}
+
+form {
+	height: 40px;
+}
+
+form input {
+	height: 40px;
+	padding-inline: 10px;
+}
+
+form .btn {
+	border: none;
+	background-color: var(--primary-color);
+	color: white;
+	height: 100%;
+	padding-inline: 10px;
+	border-radius: 5px;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 35px;
+	color: #209cee;
+	border-bottom: 1px solid #89d0ff;
+}
+
+h2,
+h1 {
+	padding: 15px;
+}
+
+main {
+	padding: 10px;
+	gap: 20px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: space-between;
+}
+
+.card {
+	background-color: white;
+	border: 1px solid rgb(182, 182, 182);
+	border-radius: 8px;
+	width: 43%;
+	padding: 15px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.card img {
+	height: auto;
+	width: 100%;
+}
+
+.card h3 {
+	font-size: 1.3rem;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.card p {
+	font-size: 1rem;
+	color: gray;
+	padding: 5px;
+}
+
+.card button {
+	background-color: #209cee;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	cursor: pointer;
+	border-radius: 3px;
+	align-self: center;
+	width: 100%;
+}
